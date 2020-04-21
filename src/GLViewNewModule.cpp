@@ -120,6 +120,15 @@ void GLViewNewModule::updateWorld()
    GLView::updateWorld(); //Just call the parent's update world first.
                           //If you want to add additional functionality, do it after
                           //this call.
+    
+    wo->setModel(MGLFrustum::New(wo, near, far, HFOV, aspectRatio));
+    wo->getModel()->getBoundingBox().getlxlylz()
+
+    WO* wo = WO::New();
+
+    if (isInFrustum(point)) {
+        obj -> visible;
+    }
 }
 
 

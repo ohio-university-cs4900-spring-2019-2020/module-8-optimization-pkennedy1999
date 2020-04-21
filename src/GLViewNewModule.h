@@ -6,6 +6,8 @@
 #include "CloneTrooper.h"
 #include "WOFTGLString.h"
 //#include <irrKlang.h>
+#include "MGLFrustum.h"
+#include "AftrGeometryFrustum.h"
 
 namespace Aftr
 {
